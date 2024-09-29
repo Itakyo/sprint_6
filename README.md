@@ -9,7 +9,6 @@ git config --global user.email "tuemail@example.com"
 4. Ya con el repo enlazado procedo a crear el entorno virtual
 python -m venv vehicles_env
 5. En gitignore me aseguro de dejar:
-# Ignorar el entorno virtual
 vehicles_env/
 6 Ejecuto el siguietne comando para plazmar trodas las librerias instaladas
 pip freeze > requirements.txt
