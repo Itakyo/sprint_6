@@ -34,3 +34,8 @@ port = 10000
 serverAddress = "0.0.0.0"
 serverPort = 10000
 
+
+# LINK DE EJECUCION EN RENDER
+
+https://sprint-6-8g20.onrender.com/
+
