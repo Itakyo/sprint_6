@@ -18,3 +18,19 @@ pip freeze > requirements.txt
 9. Corro la prueba la cual me ejecuta un enlace web con la visual del mensaje 
 streamlit run test.py
 10. En este punto mi repo ya esta enlazado con el git ignore y el requirments identificado
+# PASOS POSTERIORES\
+
+11. Se crea el foolder notebook donde ejcuto graficos a partir del archivo vehicles_us.csv 
+12. Tener presente que ha de estar activado el entonrno vitrual
+13. Instalo pipinstall jupyter y asi mismo actualizo el requirementes con emi mismo comando anterior de  pip freeswe > requiremente.txt.
+14. Ejecuto el archivo  EDA el cual me mostrara unos graficos.
+15. Subo lo anterior al repositorio.
+16. Para hacer que Streamlit sea compatible con Render, añadi un archivo de configuración de Streamlit al repositorio de tu proyecto en streamlit/config.toml con el siguiente contenido:
+[server]
+headless = true
+port = 10000
+
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 10000
+
